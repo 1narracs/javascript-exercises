@@ -1,5 +1,12 @@
-const reverseString = function() {
-
+const reverseString = function(string) {
+    const strArray = string.split("");
+    const len = strArray.length;
+    let revString = "";
+    for (let i = len; i > 0; i--) {
+        revString += strArray[i - 1]
+    }
+    console.log(revString)
+    return revString
 };
 
 // Do not edit below this line
