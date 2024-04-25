@@ -5,7 +5,6 @@ const reverseString = function(string) {
     for (let i = len; i > 0; i--) {
         revString += strArray[i - 1]
     }
-    console.log(revString)
     return revString
 };
 
